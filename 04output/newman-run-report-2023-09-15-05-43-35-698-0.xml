@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PetStoreAPI" tests="3" time="0.179">
+  <testsuite name="list pets" id="ae62e0f8-e44a-4e24-b542-6fa139bbd201" timestamp="2023-09-15T05:43:35.413Z" tests="3" failures="0" errors="0" time="0.115">
+    <testcase name="Is valid response with json array in body" time="0.115" classname="PetStoreApi"/>
+    <testcase name="Has Content-Type header" time="0.115" classname="PetStoreApi"/>
+    <testcase name="Is response time is less than 200ms" time="0.115" classname="PetStoreApi"/>
+  </testsuite>
+  <testsuite name="add pet" id="11240394-421f-40d7-8662-e6c1ecf65ae0" timestamp="2023-09-15T05:43:35.413Z" tests="4" failures="0" errors="0" time="0.040">
+    <testcase name="Is valid response with json object in body" time="0.040" classname="PetStoreApi"/>
+    <testcase name="Has Content-Type header" time="0.040" classname="PetStoreApi"/>
+    <testcase name="Is message response equal sucess" time="0.040" classname="PetStoreApi"/>
+    <testcase name="Is response time is less than 200ms" time="0.040" classname="PetStoreApi"/>
+  </testsuite>
+  <testsuite name="get pet by id" id="f5571057-1417-4818-86c5-403a5856a6b8" timestamp="2023-09-15T05:43:35.413Z" tests="3" failures="0" errors="0" time="0.024">
+    <testcase name="Is valid response with json object in body" time="0.024" classname="PetStoreApi"/>
+    <testcase name="Has Content-Type header" time="0.024" classname="PetStoreApi"/>
+    <testcase name="Is response time is less than 200ms" time="0.024" classname="PetStoreApi"/>
+  </testsuite>
+</testsuites>
